@@ -10,15 +10,15 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-4">
-            <Link to="/" className="text-2xl font-bold text-blue-700">APDP</Link>
+            <Link to="/" className="text-2xl font-bold text-green-700">APDP</Link>
           </div>
           <nav className={`${isMenuOpen ? 'block' : 'hidden'} md:flex items-center space-x-6`}>
-            <Link to="/" className="text-gray-700 hover:text-blue-600 font-medium">Acceuil</Link>
-            <Link to="/about" className="text-gray-700 hover:text-blue-600 font-medium">Apropos de Nous</Link>
-            <Link to="/services" className="text-gray-700 hover:text-blue-600 font-medium">Services</Link>
-            <Link to="/resources" className="text-gray-700 hover:text-blue-600 font-medium">Resources</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</Link>
-            <Link to="/contact" className="bg-blue-600 text-white px-4 py-2 rounded-full hover:bg-blue-700 transition duration-300">
+            <Link to="/" className="text-gray-700 hover:text-green-600 font-medium">Acceuil</Link>
+            <Link to="/about" className="text-gray-700 hover:text-green-600 font-medium">Apropos de Nous</Link>
+            <Link to="/services" className="text-gray-700 hover:text-green-600 font-medium">Services</Link>
+            <Link to="/resources" className="text-gray-700 hover:text-green-600 font-medium">Resources</Link>
+            <Link to="/contact" className="text-gray-700 hover:text-green-600 font-medium">Contact</Link>
+            <Link to="/contact" className="bg-green-600 text-white px-4 py-2 rounded-full hover:bg-green-700 transition duration-300">
               Signaler un problème
             </Link>
           </nav>

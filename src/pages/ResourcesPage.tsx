@@ -4,19 +4,19 @@ import { Book, FileText, Video } from 'lucide-react';
 const ResourcesPage = () => {
   const resources = [
     {
-      icon: <Book className="w-8 h-8 text-blue-600" />,
+      icon: <Book className="w-8 h-8 text-green-600" />,
       title: "Data Protection Guide",
       description: "A comprehensive guide to understanding and implementing data protection measures.",
       link: "#"
     },
     {
-      icon: <FileText className="w-8 h-8 text-blue-600" />,
+      icon: <FileText className="w-8 h-8 text-green-600" />,
       title: "Privacy Policy Template",
       description: "A customizable template for creating a compliant privacy policy for your website or application.",
       link: "#"
     },
     {
-      icon: <Video className="w-8 h-8 text-blue-600" />,
+      icon: <Video className="w-8 h-8 text-green-600" />,
       title: "Webinar: Data Privacy in the Digital Age",
       description: "An informative webinar discussing current trends and challenges in data privacy.",
       link: "#"
@@ -37,7 +37,7 @@ const ResourcesPage = () => {
               <h2 className="text-xl font-semibold ml-4">{resource.title}</h2>
             </div>
             <p className="text-gray-600 mb-4">{resource.description}</p>
-            <a href={resource.link} className="text-blue-600 hover:underline">Apprendre encore plus</a>
+            <a href={resource.link} className="text-green-600 hover:underline">Apprendre encore plus</a>
           </div>
         ))}
       </div>
